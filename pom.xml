@@ -11,7 +11,7 @@
     <parent>
         <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>Angel.SR4</version>
+        <version>Edgware.RELEASE</version>
     </parent>
 
     <dependencies>
@@ -20,13 +20,4 @@
             <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>
